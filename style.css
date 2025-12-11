@@ -1,0 +1,68 @@
+/* GENERAL */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #E6E1FF; /* soft lavender */
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    color: #4B0082; /* deep purple */
+}
+
+/* LANDING PAGE */
+.landing .title {
+    margin-top: 80px;
+    font-size: 3rem;
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+.gift-container {
+    margin-top: 60px;
+}
+
+.gift {
+    width: 220px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.gift:hover {
+    transform: scale(1.1);
+}
+
+.click-text {
+    margin-top: 20px;
+    font-size: 1.3rem;
+    opacity: 0.9;
+}
+
+/* MESSAGE PAGE */
+.message-page .content-box {
+    margin: 40px auto;
+    width: 80%;
+    max-width: 650px;
+    background: white;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 4px 18px rgba(0,0,0,0.1);
+}
+
+.profile-photo {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 20px;
+    margin: 20px 0;
+}
+
+.reasons-list {
+    text-align: left;
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: #4B0082;
+}
+
+/* ANIMATIONS */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
