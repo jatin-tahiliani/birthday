@@ -61,6 +61,34 @@ body {
     color: #4B0082;
 }
 
+.surprise-link {
+    display: inline-block;
+    margin-top: 25px;
+    font-size: 1.4rem;
+    color: #6a0dad; /* deep purple */
+    text-decoration: none;
+    font-weight: 600;
+    background: #e6d8ff; /* soft lavender */
+    padding: 12px 25px;
+    border-radius: 12px;
+    transition: 0.25s ease;
+}
+
+.surprise-link:hover {
+    background: #d4b8ff;
+    color: #4B0082;
+    transform: scale(1.05);
+}
+
+.poem-text {
+    font-size: 1.3rem;
+    line-height: 2rem;
+    white-space: pre-line;
+    color: #4B0082;
+    margin: 20px 0;
+}
+
+
 /* ANIMATIONS */
 @keyframes fadeIn {
     from { opacity: 0; transform: translateY(20px); }
